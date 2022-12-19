@@ -1,0 +1,30 @@
+@charset "UTF-8";
+.box-word{
+	margin: 20px auto 0px;
+	background-color: #fff;
+	border-radius: 20px;
+	padding: 20px 0;
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px, 
+	 			rgba(0, 0, 0, 0.2) 0px 7px 13px 0, 
+	 			rgba(0, 0, 0, 0.2) 0px 0px 0px inset;
+	overflow: auto;
+    max-height: 130px;
+    width: 80%;
+   
+}
+.box-word i{
+	font-size: 18px;
+	color: red;
+	margin: 0 35px;
+}
+.box-word p{
+	margin: 0;
+}
+.word-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    flex-wrap: wrap;
+    margin: 10px 0;
+    width: 100%;
+}

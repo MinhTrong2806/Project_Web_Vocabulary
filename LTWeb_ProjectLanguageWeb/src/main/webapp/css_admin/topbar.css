@@ -1,0 +1,139 @@
+@charset "UTF-8";
+nav{
+	width: 100%;
+    margin-top: 30px;
+}
+.topbar {
+    height: 4.375rem;
+}
+.mb-4, .my-4 {
+    margin-bottom: 1.5rem!important;
+}
+.shadow {
+    box-shadow: 0 .15rem 1.75rem 0 rgba(58,59,69,.15)!important;
+}
+
+.bg-white {
+    background-color: #fff!important;
+}
+.navbar-expand {
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+}
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+}
+.bg-white {
+    background-color: #fff!important;
+}
+.mb-4 {
+    margin-bottom: 1.5rem!important;
+}
+
+.topbar .navbar-search {
+    width: 25rem;
+}
+
+.mr-auto, .mx-auto {
+    margin-right: auto!important;
+}
+
+.mb-2, .my-2 {
+    margin-bottom: 0.5rem!important;
+}
+
+.mt-2, .my-2 {
+    margin-top: 0.5rem!important;
+}
+
+.mw-100 {
+    max-width: 100%!important;
+}
+@media (min-width: 576px){
+.d-sm-inline-block {
+    display: inline-block!important;
+}
+.topbar .dropdown {
+    position: relative;
+}
+.d-sm-none {
+    display: none!important;
+}
+.topbar .dropdown .dropdown-menu {
+    width: auto;
+    right: 0;
+}
+}
+.form-inline {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+.navbar-expand .navbar-nav {
+    flex-direction: row;
+}
+
+.navbar-expand .navbar-nav {
+    flex-direction: row;
+}
+.ml-auto, .mx-auto {
+    margin-left: auto!important;
+}
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.input-group {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+}
+.topbar.navbar-light .navbar-nav .nav-item .nav-link {
+    color: #d1d3e2;
+}
+.navbar-expand .navbar-nav .dropdown-menu {
+    position: absolute;
+}
+.dropdown .dropdown-menu {
+    font-size: .85rem;
+}
+.navbar-nav .dropdown-menu {
+    position: static;
+    float: none;
+}
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #3a3b45;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+.text-gray-400 {
+    color: #d1d3e2!important;
+}
+.mr-2, .mx-2 {
+    margin-right: 0.5rem!important;
+}
+
+

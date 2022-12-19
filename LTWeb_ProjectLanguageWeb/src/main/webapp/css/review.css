@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+.progress_learn{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: space-around;
+	position: relative;
+	margin-top: 150px;
+	height: 300px;
+	max-height: 300px;
+}
+.progress_learn_packet{
+	display: flex;
+	flex-direction: row;
+	width: 60%;
+	justify-content: space-around;
+	position: relative;
+}
+.data{
+	position: relative;	
+	width: 75px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+.text_count_word{
+	position: absolute;
+	top:-30px;
+	width: 100%;
+	text-align: center;
+	font-size: 17px;
+	font-weight: 700;
+}
+.text_stt{
+	position: absolute;
+	bottom: -40px;
+	width: 100%;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+.dashboard-border{
+	width: 100%;
+	box-sizing: border-box;
+	height: 10px;
+	position: absolute;
+	bottom: -8px;
+	background-color: #BDBDBD;
+	border-radius: 10px;
+}
+.data-item-1{
+	background-color: #EB5757;
+	margin-top: 300px;
+}
+.data-item-2{
+	background-color: #FFCB08;
+	margin-top: 300px;
+}
+.data-item-3{
+	background-color: #56CCF2;
+	margin-top: 300px;
+}
+.data-item-4{
+	background-color: #2F80ED;
+	margin-top: 300px;
+}
+.data-item-5{
+	background-color: #213782;
+	margin-top: 300px;
+}
+
+
+.btn-learn{
+	margin-top : 20px;
+	text-align: center;
+}
+
+.btn-style{
+	width: 250px;
+	min-width: 200px;
+	height: 50px;
+	font-size: 23px;
+	background-color: #58bd2f;
+	color: #fff;
+	border-radius: 50px;
+	border: none;
+	
+}
+
+/* contain right */
+
+.contain-right{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.contain-right-item{
+	background-color:#FFF;
+	width: 80%;
+	height: 100px;
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+	border-radius: 20px;
+}
+.contain-right-item:first-child{
+	margin-top: 60px;
+}
+.contain-right-item-text{
+	position: absolute;
+	right: 0;
+	padding-right: 25px;
+}
+.contain-right-item-text .item-text-header{
+	font-size: 18px;
+	font-weight: bolder;
+	line-height: 20px;
+	margin: 0;
+	text-align: center;
+}
+
+.contain-right-item-text .item-text{
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 30px;
+	margin: 0;
+	text-align: center;
+}
+

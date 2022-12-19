@@ -1,0 +1,122 @@
+@charset "UTF-8";
+/* page addword */
+#tablecourse_wrapper .row{
+	margin: 20px;
+}
+#tabletopic_wrapper .row{
+	margin: 20px;
+}
+#tableword_wrapper .row{
+	margin: 20px;
+}
+.content td #trash{
+	color:red;
+}
+.content td a:first-child{
+	color:red;
+}
+.content td a:nth-child(2){
+	color:blue;
+}
+.content td a:nth-child(3){
+	color:#ff8040;
+}
+.form-simple{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.packet-form{
+	z-index: 2;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.addword-packet p {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 0 0 30px;
+}
+.content table{
+    width: 100%;
+    font-size: 16px;
+    padding: 30px 30px;
+    border-collapse :unset;
+}
+
+table input{
+    width: 60%;
+    height: 30px;
+    font-size: 18px;
+}
+table .imageinput{
+    height: 38px;
+}
+table .btn{
+    width: 180px;
+    height: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+table tr {
+    line-height: 45px;
+}
+table tr .imageinput {
+    line-height: 25px;
+}
+table td select{
+    height: 32px;
+    width: 160px;
+    font-size: 16px;
+}
+/* end addword */
+
+/* listword */
+.form-listword .listword-packet table{
+    border: 1px solid #8f8f8f; 
+    border-collapse: collapse;
+    width: 95%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.form-listword .listword-packet th{
+    border: 1px solid #8f8f8f; 
+}
+.form-listword .listword-packet td{
+    border: 1px solid #8f8f8f ; 
+}
+.listword-packet.packet-form {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-listword .listword-packet p {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px; 
+}
+
+.br{
+    width: 100%;
+    background-color: rgb(230, 230, 230);
+    box-shadow: -1px 1px 1px rgba(37, 37, 37, 0.2), 1px 1px 1px rgba(84, 84, 84, 0.2);
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* end listword */

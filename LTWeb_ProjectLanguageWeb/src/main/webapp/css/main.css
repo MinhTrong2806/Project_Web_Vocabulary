@@ -1,0 +1,26 @@
+@charset "UTF-8";
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    box-sizing: border-box;
+    z-index: 2;
+}
+.col-3 {
+    width: 25%;
+    flex: 0 0 auto;
+}
+.col-6 {
+    width: 50%;
+    flex: 0 0 auto;
+}
+
+.col_2_content {
+   min-height: 100vh;
+}
+.bgr_f2 {
+    background-color: #f2f2f2;
+}

@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+
+.contain-right{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.contain-right-item{
+	background-color:#FFF;
+	width: 90%;
+	height: 100px;
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+	border-radius: 20px;
+	box-shadow: 0px 4px 4px rgb(0 0 0 / 10%);
+	min-height: 100px;
+}
+.contain-right-item:first-child{
+	margin-top: 60px;
+}
+.contain-right-item-text{
+	position: absolute;
+	left: 55px;
+	display: flex;
+	flex-direction: row;
+	position: absolute;
+	right: 0;
+	padding-right: 25px;
+	margin: 20px;
+}
+.contain-right-item-text i{
+	position: absolute;
+	font-size: 25px;
+	color: #f00;
+	right :10px;
+	line-height: 20px;
+}
+.contain-right-item-text .item-text-header{
+	font-size: 18px;
+	font-weight: bolder;
+	line-height: 20px;
+	margin: 0;
+	text-align: center;
+}
+
+.contain-right-item-text .item-text{
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 30px;
+	margin: 0;
+	text-align: center;
+}
+/* lesson */
+.title-header-lesson{
+	flex-direction:column;
+	color:red;
+	display: flex;
+	align-items: center;
+	padding: 30px 10px 10px 10px;
+	position: fixed;
+	left: 25%;
+    right: 25%;
+	top: 60px;
+	z-index: 10;
+	background-color: #fff;
+}
+.header-lesson{
+	width: 80%;
+	background-color: #ffcb09;
+	height: 70px;
+	line-height: 70px;
+	font-size: 30px;
+	text-align: center;
+	border-radius: 20px;
+	z-index: 10;
+	font-weight: bold;
+	color: black;
+}
+.list-lesson{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	margin-top: 140px;
+	align-items: center;
+	color: #000;
+}
+.lesson-item{
+	width: 100%;
+	margin-bottom: 20px;
+	border-radius: 20px;
+}
+.br-green{
+	background-color: #2cb132;
+}
+.br-f8{
+	background-color: #F8F8F8;
+}
+
+.br-green{
+	background-color: #34b72a;
+}
+
+.less-packet{
+	width: 80%;
+	box-sizing: border-box;
+	max-height: 110px;
+}
+.lesson-content{
+	padding: 10px 10px;
+	box-sizing: border-box;
+}
+.lesson-content p{
+	color: #000;
+	padding-left: 10px;
+}
+.lesson-content .content-1{
+	font-size: 22px;
+	font-weight: bold;
+}
+

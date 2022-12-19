@@ -1,0 +1,128 @@
+@charset "UTF-8";
+#header-game{
+	height: calc(100vh * 0.15);
+	position:relative;
+}
+
+#body-game{
+	height: calc(100vh * 0.7);
+	position:relative;
+}
+#footer-game{
+	height: calc(100vh * 0.2);
+	position:relative;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.exit{
+	width: 10%;
+	float: left;
+	height: 100px;
+    text-align: right;
+    line-height: 120px;
+    cursor: pointer;
+}
+.exit i{
+	font-size: 35px;
+}
+
+.box{
+    width: 90%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    float: right;
+}
+.boxset{
+    display: flex;
+    width: 90%;
+    max-height: 30px;
+    flex-direction: row;
+    position: relative;
+    height: 12vh;
+    background-color: hwb(48 55% 3%);
+    border-radius: 15px;
+  
+}
+.boxicon{
+    width: 50px;
+    height: 50px;
+    border-radius: 28%;
+    color: rgb(43, 107, 124);
+    font-size: 12vh;
+}
+
+.title{
+    font-size: 26px;
+    color:slategrey;
+    text-align: center;
+    font-weight: bold;
+}
+
+.btn-submit{
+    width: 25%;
+    height: 40px;
+    border-radius: 18px;
+    cursor: pointer;
+    font-size: 20px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background-color: rgb(1, 255, 51);
+    z-index: 2;
+    min-width: 150px;
+}
+.wordforget{
+    text-decoration: underline;
+}
+
+#answer-card{
+	position :absolute;
+    width: 100%;
+    background-color: #03b927;
+    margin: 30px 0;
+    border-radius: 20px;
+    min-height: 150px;
+    font-size: 17px;
+    font-family: 'Quicksand', sans-serif;
+	color: #fff;
+	animation: card-show ease-in .1s;
+	cursor: pointer;
+	display: none;
+}
+
+
+@keyframes card-show{
+	from{opacity :0}
+	to{opacity :1}
+}
+
+.margin-t-20 {
+    margin-top: 20px;
+}
+
+.pos-bottom{
+	bottom: 50px;
+}
+
+.drag{
+	user-select:none;
+}
+
+#btn-sound-answer{
+	position: absolute;
+	right: 20px;
+	top : 20px;
+	width: 50px;
+	height: 50px;
+	border: 2px solid blue;
+	border-radius: 100%;
+	cursor: pointer;
+	background-color: #fff;
+}
+

@@ -1,0 +1,213 @@
+@charset "UTF-8";
+.hide {
+    display: none;
+}
+.form-packet.form-word{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.form-word-card{
+    position: absolute;
+}
+.form-game{
+    min-height: 600px;
+}
+#form-1, #form-2{
+	/* sua */
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 130px;
+    min-height: 600px;
+}
+.box-item-less{
+    background-color: #03ffff;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    border-radius: 20px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Quicksand,sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.word-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 380px;
+    height: 380px;
+    border: none;
+    border-radius: 20px;
+    width: 350px;
+    font-size: 19px;
+    justify-content: space-evenly;
+    font-family: sans-serif;
+    box-shadow: rgb(6 24 44 / 0%) 0px 0px 0px 2px, rgb(6 24 44 / 20%) 0px 4px 14px -1px, rgb(255 255 255 / 8%) 0px 1px 0px inset;
+    /* sua */
+    transition:height .2s;
+    cursor: pointer;
+    position: relative;
+    background-color: #fff;
+}
+.word-card .name-word{
+    font-size: 25px;
+    font-weight: bold;
+    /* sua */
+    word-break: break-all;
+    position: absolute;
+	top: 310px;	
+}
+#mean{
+	font-size: 18px;
+    font-weight: bold;
+}
+.btn-next{
+    position: absolute;
+    bottom: 40px;
+    width: 25%;
+    height: 40px;
+    border-radius: 18px;
+    cursor: pointer;
+    font-size: 20px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background-color: rgb(1, 255, 51);
+    z-index: 2;
+}
+.btn-check{
+    width: 50%;
+    height: 40px;
+    margin-left: 25%;
+    border-radius: 18px;
+    cursor: pointer;
+    font-size: 20px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background-color: rgb(1, 255, 51);
+}
+.form-game .form-packet{
+    width: 100%;
+}
+
+.form-game input#form-input{
+    width: 65%;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 20px;
+    border: none;
+    z-index: 2;
+    outline: none;
+    font-size: 18px;
+    font-weight: 100;
+    padding-left: 20px;
+}
+
+#answer-card{
+    width: 100%;
+    background-color: #03b927;
+    margin: 30px 0;
+    border-radius: 20px;
+    min-height: 150px;
+    font-size: 17px;
+    font-family: 'Quicksand', sans-serif;
+	color: #fff;
+	/* sua */
+	animation: card-show ease-in .1s;
+}
+
+@keyframes card-show{
+	from{opacity :0}
+	to{opacity :1}
+}
+
+#answer-card #word-anwser{
+	font-weight: bold;
+    font-size: 20px;
+}
+
+.margin-t-20{
+	margin-top: 20px;
+}
+
+#btn-nextWord{
+    z-index: 2;
+    width: 25%;
+    height: 40px;
+}
+.btn-center{
+	width: 100%; 
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	position: absolute;
+	bottom: 31px;
+}
+#btn-nextWord{
+    width: 25%;
+    height: 40px;
+    border-radius: 18px;
+    cursor: pointer;
+    font-size: 20px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background-color: rgb(1, 255, 51);
+    z-index: 2;
+}
+/* them */
+.detail_word{
+	position: absolute;
+	bottom: 20px;
+	display: none;
+	animation: card-show ease-in .5s;
+}
+
+/* .word-card:hover .detail_word {
+	display: block;
+	text-align: center;
+} */
+.word-card #phonetic,#mean,#sample{
+	margin: 10px 0;
+	text-align: center;
+	font-size: 17px;
+	word-break: break-word;
+}
+#sample {
+    margin: 20px 40px;
+}
+.word-card img{
+	position: absolute;
+	top : 40px;
+	max-width: 250px;
+}
+
+/* sound */
+.sound{
+	position: absolute;
+	top: -20px;
+	z-index: 5;
+}
+.sound button{
+	width: 50px;
+	height: 50px;
+	border: 2px solid blue;
+	border-radius: 100%;
+	cursor: pointer;
+	background-color: #fff;
+}
+.sound i{
+	font-size: 25px;
+	color: blue;
+}
+
+
+

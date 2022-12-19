@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+.vocabulary{
+    font-size:22px;
+    color:#333;
+    text-align: center;
+    font-weight: bold;
+}
+.box-inputs{
+	 text-align: center;
+
+	 width: auto;
+}
+.wrapper-input{
+	background-color: #fff;
+	padding: 15px 30px 25px;
+	border-radius: 15px;
+	border: 5px solid #00a6ff;
+}
+.fillword{
+    width: 25px;
+    height: 30px;
+    background-color: #fff;
+    border:none;
+    border-bottom: 3px solid #00a6ff;
+    font-size: 20px;
+    outline: none;
+    text-align: center;
+}
+#space{
+	margin: 0 10px;
+}
+

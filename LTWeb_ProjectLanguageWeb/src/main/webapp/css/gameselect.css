@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+#question{
+	width: 80%;
+	border: 5px solid #00a6ff;
+	border-radius: 15px;
+	margin: 20px auto 40px;
+	text-align: center;
+	height: auto; 
+	line-height: 50px;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+#answer-box{
+	width: 70%;
+	margin: 20px auto;
+	
+}
+.answer{
+	width: 100%;
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+	background-color: #fff;
+	border-radius: 15px;
+	margin: 20px 0;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+	color: #585757;
+	cursor: pointer;
+}
+
